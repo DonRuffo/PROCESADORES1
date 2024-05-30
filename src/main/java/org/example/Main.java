@@ -36,6 +36,11 @@ public class Main {
         Procesadores_Intel proc_31 = new Procesadores_Intel(false, 7,"Socket ssm", "Intel i5 7000", 8, 50,6.5);
         Procesadores_AMD proc_32 = new Procesadores_AMD(7,"Socket501","Razer701",12,100,5.00,true);
 
+        //Alejandro Gutierrez
+        Procesadores_Intel procAle1 = new Procesadores_Intel(false, 5, "LGA 1700", "Intel Core i5 6500", 6, 65, 4.5);
+        Procesadores_moviles procAle2 = new Procesadores_moviles(true, "SnapDragon 888", 8, 70, 6.5);
+        Procesadores_AMD procAle3 = new Procesadores_AMD(5, "AM4", "Ryzen 5 ", 6, 55, 5.2, true);
+
         //Grupo2
 
         //Moran Mateo.
@@ -43,10 +48,6 @@ public class Main {
         Procesadores_moviles movil1 = new Procesadores_moviles(true, "Xiaomi Redmi Note 12",4,65,4.5);
         Procesadores_AMD proc_13 = new Procesadores_AMD(3,"AM4","Ryzen 3 3200G",4,45,3.5,false);
 
-        //Alejandro Gutierrez
-        Procesadores_Intel procAle1 = new Procesadores_Intel(false, 5, "LGA 1700", "Intel Core i5 6500", 6, 65, 4.5);
-        Procesadores_moviles procAle2 = new Procesadores_moviles(true, "SnapDragon 888", 8, 70, 6.5);
-        Procesadores_AMD procAle3 = new Procesadores_AMD(5, "AM4", "Ryzen 5 ", 6, 55, 5.2, true);
 
         //David Muela
         Procesadores_AMD prc_3 = new Procesadores_AMD(12,"AMD4","Ryzer 3 3200G",4,60,2,false);
