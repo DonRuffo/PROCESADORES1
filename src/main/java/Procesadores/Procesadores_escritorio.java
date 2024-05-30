@@ -1,10 +1,11 @@
 package Procesadores;
 
-public class Procesadores_escritorio {
+public class Procesadores_escritorio extends Procesadores{
     int Generacion;
     String Socket;
 
-    public Procesadores_escritorio(int generacion, String socket) {
+    public Procesadores_escritorio(int generacion, String socket, String nombre, int nucleos, int consumo, double velocidad) {
+        super(nombre, nucleos, consumo, velocidad);
         Generacion = generacion;
         Socket = socket;
     }
