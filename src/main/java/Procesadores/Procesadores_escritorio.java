@@ -4,6 +4,7 @@ public class Procesadores_escritorio extends Procesadores{
     int Generacion;
     String Socket;
 
+    public Procesadores_escritorio() {}
     public Procesadores_escritorio(int generacion, String socket, String nombre, int nucleos, int consumo, double velocidad) {
         super(nombre, nucleos, consumo, velocidad);
         Generacion = generacion;
