@@ -16,7 +16,8 @@ public class Main {
 
         //Dennis por favor crear 2 instancias de intel con valores
 
-        System.out.println("Hello World");
-        System.out.println("ellloo");
+
+
+        //Isaac por favor crear 2 intasncias de AMD con valores
     }
 }
