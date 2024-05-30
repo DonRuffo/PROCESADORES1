@@ -33,7 +33,7 @@ public class Main {
         //Jose Lincango
         Procesadores_AMD proc_30 = new Procesadores_AMD(3,"AM5","Ryzen series 7000",4,50,3.5,true);
         Procesadores_Intel proc_31 = new Procesadores_Intel(false, 7,"Socket ssm", "Intel i5 7000", 8, 50,6.5);
-
+        Procesadores_AMD proc_32 = new Procesadores_AMD(7,"Socket501","Razer701",12,100,5.00,true);
 
         //Grupo2
 
