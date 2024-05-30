@@ -21,6 +21,8 @@ public class Main {
         Procesadores_Intel proc_6 = new Procesadores_Intel();
 
         //Isaac por favor crear 2 intasncias de AMD con valores
+        Procesadores_AMD proc_7 = new Procesadores_AMD(5,"Socket101","Razer707",4,200,2.00,false );
+        Procesadores_AMD proc_8 = new Procesadores_AMD(3,"Socket001","Razer700",6,250,200,true);
 
         //Grupo1
 
