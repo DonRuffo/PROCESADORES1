@@ -65,6 +65,6 @@ public class Main {
         Procesadores_moviles movil4 = new Procesadores_moviles(true, "POCO X2",4,57,5.5);
         Procesadores_AMD proc_25 = new Procesadores_AMD(3,"AM4","Ryzen 4 3060",4,55,6.5,false);
 
-
+        //fin
     }
 }
