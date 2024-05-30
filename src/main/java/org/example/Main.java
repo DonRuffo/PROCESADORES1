@@ -1,6 +1,7 @@
 package org.example;
 
 import Procesadores.Procesadores_AMD;
+import Procesadores.Procesadores_Intel;
 import Procesadores.Procesadores_moviles;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -16,8 +17,22 @@ public class Main {
 
         //Dennis por favor crear 2 instancias de intel con valores
 
-
+        Procesadores_Intel proc_5 = new Procesadores_Intel(true,7,"Socket FM2",);
+        Procesadores_Intel proc_6 = new Procesadores_Intel();
 
         //Isaac por favor crear 2 intasncias de AMD con valores
+
+        //Grupo1
+
+
+
+
+
+        //Grupo2
+
+
+
+
+        //Grupo3
     }
 }
