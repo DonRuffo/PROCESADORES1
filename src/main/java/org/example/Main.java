@@ -18,8 +18,8 @@ public class Main {
 
         //Dennis por favor crear 2 instancias de intel con valores
 
-        Procesadores_Intel proc_5 = new Procesadores_Intel(true,7,"Socket FM2",);
-        Procesadores_Intel proc_6 = new Procesadores_Intel();
+        Procesadores_Intel proc_5 = new Procesadores_Intel(true,7,"Socket FM2","CORE!5",7,9,6.9);
+        Procesadores_Intel proc_6 = new Procesadores_Intel(false,8,"Socket GF0","CORE!7",8,9,8.9);
 
         //Isaac por favor crear 2 intasncias de AMD con valores
         Procesadores_AMD proc_7 = new Procesadores_AMD(5,"Socket101","Razer707",4,200,2.00,false );
@@ -29,10 +29,8 @@ public class Main {
 
         //Michelle Suarez instancias
         Procesadores_Intel proc_10 = new Procesadores_Intel(true,9,"Socket 478","Core generacion 9",4,2,2.43);
-        Procesadores_Intel proc_11 = new Procesadores_Intel(true,9,"Socket 478","Core generacion 9",4,2,2.43);
-
-
-
+        Procesadores_Intel proc_11 = new Procesadores_Intel(true,5,"Socket 6","Core generacion 5",2,3,2.3);
+        Procesadores_Intel proc_9 = new Procesadores_Intel(true,4,"Socket 48","Core generacion 4",2,3,2.53);
 
         //Grupo2
 
@@ -48,10 +46,5 @@ public class Main {
 
 
         //Grupo3
-        //Isaac Quinapallo Integrante 2, Grupo3
-        Procesadores_AMD proc_20 = new Procesadores_AMD(5,"Socket101","Razer707",4,300,5.00,false);
-        Procesadores_AMD proc_21 = new Procesadores_AMD(5,"Socket401","Razer700",8,500,5.00,false);
-        Procesadores_AMD proc_22 = new Procesadores_AMD(7,"Socket501","Razer701",12,100,5.00,true);
-
     }
 }
