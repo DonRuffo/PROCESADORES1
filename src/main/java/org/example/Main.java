@@ -44,5 +44,10 @@ public class Main {
 
 
         //Grupo3
+        //Isaac Quinapallo Integrante 2, Grupo3
+        Procesadores_AMD proc_20 = new Procesadores_AMD(5,"Socket101","Razer707",4,300,5.00,false);
+        Procesadores_AMD proc_21 = new Procesadores_AMD(5,"Socket401","Razer700",8,500,5.00,false);
+        Procesadores_AMD proc_22 = new Procesadores_AMD(7,"Socket501","Razer701",12,100,5.00,true);
+
     }
 }
