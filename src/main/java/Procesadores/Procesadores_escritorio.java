@@ -27,7 +27,7 @@ public class Procesadores_escritorio extends Procesadores{
     }
 
     //Metodos
-    public void imprimir_datoa_escritorio(){
+    public void imprimir_datos_escritorio(){
         System.out.println("Generacion: " + this.getGeneracion());
         System.out.println("Socket: " + this.getSocket());
     }
