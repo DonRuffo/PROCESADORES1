@@ -21,6 +21,8 @@ public class Main {
         Procesadores_Intel proc_6 = new Procesadores_Intel();
 
         //Isaac por favor crear 2 intasncias de AMD con valores
+        Procesadores_AMD proc_7 = new Procesadores_AMD(5,"Socket101","Razer707",4,200,2.00,false );
+        Procesadores_AMD proc_8 = new Procesadores_AMD(3,"Socket001","Razer700",6,250,200,true);
 
         //Grupo1
 
@@ -32,6 +34,11 @@ public class Main {
 
 
         //Grupo2
+
+        //Moran Mateo.
+        Procesadores_Intel proc_7 = new Procesadores_Intel(true,7,"Socket LGA 1700","Intel i7 11700",8,65,2.5);
+        Procesadores_moviles movil1 = new Procesadores_moviles(true, "Xiaomi Redmi Note 12",4,65,4.5);
+        Procesadores_AMD proc_8 = new Procesadores_AMD(3,"AM4","Ryzen 3 3200G",4,45,3.5,false);
 
 
 
