@@ -30,7 +30,9 @@ public class Main {
         Procesadores_Intel proc_10 = new Procesadores_Intel(true,9,"Socket 478","Core generacion 9",4,2,2.43);
         Procesadores_Intel proc_11 = new Procesadores_Intel(true,9,"Socket 478","Core generacion 9",4,2,2.43);
 
-
+        //Jose Lincango
+        Procesadores_AMD proc_30 = new Procesadores_AMD(3,"AM5","Ryzen series 7000",4,50,3.5,true);
+        Procesadores_Intel proc_31 = new Procesadores_Intel(false, 7,"Socket ssm", "Intel i5 7000", 8, 50,6.5);
 
 
         //Grupo2
