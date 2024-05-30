@@ -2,6 +2,7 @@ package org.example;
 
 import Procesadores.Procesadores_AMD;
 import Procesadores.Procesadores_Intel;
+import Procesadores.Procesadores_escritorio;
 import Procesadores.Procesadores_moviles;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -28,10 +29,8 @@ public class Main {
 
         //Michelle Suarez instancias
         Procesadores_Intel proc_10 = new Procesadores_Intel(true,9,"Socket 478","Core generacion 9",4,2,2.43);
-        Procesadores_Intel proc_11 = new Procesadores_Intel(true,9,"Socket 478","Core generacion 9",4,2,2.43);
-
-
-
+        Procesadores_Intel proc_11 = new Procesadores_Intel(true,5,"Socket 6","Core generacion 5",2,3,2.3);
+        Procesadores_Intel proc_9 = new Procesadores_Intel(true,4,"Socket 48","Core generacion 4",2,3,2.53);
 
         //Grupo2
 
@@ -40,7 +39,10 @@ public class Main {
         Procesadores_moviles movil3 = new Procesadores_moviles(true, "Xiaomi Redmi Note 12",4,65,4.5);
         Procesadores_AMD proc_14 = new Procesadores_AMD(3,"AM4","Ryzen 3 3200G",4,45,3.5,false);
 
-
+        //David Muela
+        Procesadores_AMD prc_3 = new Procesadores_AMD(12,"AMD4","Ryzer 3 3200G",4,60,2,false);
+        Procesadores_moviles movile_1 = new Procesadores_moviles(true,"Chip",2,20,2.5);
+        Procesadores_escritorio escritorio_1 = new Procesadores_escritorio(7,"AMD4","Ryzer 5 5600x",16,65,3.5);
 
 
         //Grupo3
