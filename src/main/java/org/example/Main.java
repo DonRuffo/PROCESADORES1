@@ -46,5 +46,16 @@ public class Main {
 
 
         //Grupo3
+        //Isaac Quinapallo Integrante 2, Grupo3
+        Procesadores_AMD proc_20 = new Procesadores_AMD(5,"Socket101","Razer707",4,300,5.00,false);
+        Procesadores_AMD proc_21 = new Procesadores_AMD(5,"Socket401","Razer700",8,500,5.00,false);
+        Procesadores_AMD proc_22 = new Procesadores_AMD(7,"Socket501","Razer701",12,100,5.00,true);
+
+        //Dennis Diaz
+        Procesadores_Intel proc_23 = new Procesadores_Intel(true,6,"Socket LGA 3700","Intel i9 11700",8,75,3.5);
+        Procesadores_moviles movil4 = new Procesadores_moviles(true, "POCO X2",4,57,5.5);
+        Procesadores_AMD proc_25 = new Procesadores_AMD(3,"AM4","Ryzen 4 3060",4,55,6.5,false);
+
+
     }
 }
