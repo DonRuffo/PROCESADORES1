@@ -17,8 +17,8 @@ public class Main {
 
         //Dennis por favor crear 2 instancias de intel con valores
 
-        Procesadores_Intel proc_5 = new Procesadores_Intel(true,7,"Socket FM2",);
-        Procesadores_Intel proc_6 = new Procesadores_Intel();
+        Procesadores_Intel proc_5 = new Procesadores_Intel(true,7,"Socket FM2","CORE!5",7,9,6.9);
+        Procesadores_Intel proc_6 = new Procesadores_Intel(false,8,"Socket GF0","CORE!7",8,9,8.9);
 
         //Isaac por favor crear 2 intasncias de AMD con valores
         Procesadores_AMD proc_7 = new Procesadores_AMD(5,"Socket101","Razer707",4,200,2.00,false );
