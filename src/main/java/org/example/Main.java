@@ -30,7 +30,9 @@ public class Main {
         Procesadores_Intel proc_10 = new Procesadores_Intel(true,9,"Socket 478","Core generacion 9",4,2,2.43);
         Procesadores_Intel proc_11 = new Procesadores_Intel(true,9,"Socket 478","Core generacion 9",4,2,2.43);
 
-
+        //Jose Lincango
+        Procesadores_Intel proc_30= new Procesadores_Intel(false,7,"Socket550","Core i5 generacion12",4,4,5.12);
+        Procesadores_AMD proc_31= new Procesadores_AMD(3, "AM5", "Ryzen 5 series 7000", 8, 50, 3.5, true);
 
 
         //Grupo2
@@ -44,5 +46,10 @@ public class Main {
 
 
         //Grupo3
+        //Isaac Quinapallo Integrante 2, Grupo3
+        Procesadores_AMD proc_20 = new Procesadores_AMD(5,"Socket101","Razer707",4,300,5.00,false);
+        Procesadores_AMD proc_21 = new Procesadores_AMD(5,"Socket401","Razer700",8,500,5.00,false);
+        Procesadores_AMD proc_22 = new Procesadores_AMD(7,"Socket501","Razer701",12,100,5.00,true);
+
     }
 }
