@@ -24,6 +24,9 @@ public class Main {
 
         //Grupo1
 
+        //Michelle Suarez instancias
+        Procesadores_Intel proc_10 = new Procesadores_Intel(true,9,"Socket 478","Core generacion 9",4,2,2.43);
+        Procesadores_Intel proc_11 = new Procesadores_Intel(true,9,"Socket 478","Core generacion 9",4,2,2.43);
 
 
 
